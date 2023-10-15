@@ -1,0 +1,647 @@
+#one{
+    display: flex;
+    padding: 1.5% 0%;
+    position:fixed;
+    width:100%;
+    background-color: green;
+    height: 40px;
+    place-content: center;
+    flex-direction: row;
+    gap: 20%;
+ 
+    margin-top: -1%;
+}
+
+#one div.logo{
+    display: flex;
+    flex-direction: row;
+}
+nav a{
+    margin: 0 30px;
+    text-decoration: none;
+    color: white;
+}
+nav a span{
+    background-color: forestgreen;
+    padding: 8px;
+}
+
+#section1{
+    background-image: url(Img/office1.jpg);
+    background-size: cover;
+    height: 100vh; 
+    width: 100%;  
+}
+#section1a{
+    background-color:rgba(0, 0, 0, 0.178);
+    width: 35%;
+    margin:15% 5%;
+    position: absolute;
+    padding:10 30px;
+    
+}
+#section1a h2{ 
+    font-size: 40px;
+}
+#section1a span{
+    font-size: small;
+}
+
+#section1a p{
+    background-color: forestgreen;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#section2{
+    background-color: rgba(255, 255, 255, 0.664);
+    width: 27%;
+    position: absolute;
+    padding-top: 10px;
+    margin: 42% 5%;
+    height: 40%;
+    text-decoration: none;
+    padding: 15px;    
+} 
+#section2:hover{
+    background-color:forestgreen;
+}
+ 
+
+#section2 img{
+    margin: 0% 45%;
+
+}
+#section2 h4{
+    text-align: center;
+    margin:10% 20%;
+     
+}
+#section2 p{
+    text-align: center;
+    margin: 10% 20%;
+   
+}
+#section2 p a{
+    text-decoration: none;
+    color:forestgreen;
+   
+}
+
+#section3{
+    background-color: rgba(8, 136, 8, 0.527);
+    width: 27%;
+    position:absolute;
+    padding-top: 10px;
+    margin: 41% 35%;
+    height: 42%;
+    padding: 15px;   
+}
+#section3:hover{
+    background-color:forestgreen;
+}
+  
+ 
+
+#section3 img{
+    margin: 0% 45%;
+
+}
+#section3 h4{
+    text-align: center;
+    margin:10% 20%;
+     
+}
+#section3 p{
+    text-align: center;
+    margin: 10% 20%;
+   
+}
+#section3 p a{
+    text-decoration: none;
+    color:white;   
+}
+#section4{
+    background-color: rgba(255, 255, 255, 0.514);
+    width: 27%;
+    position:absolute;
+    padding-top: 10px;
+    margin: 42% 65%;
+    height: 40%;
+    padding: 15px; 
+} 
+
+#section4:hover{
+    background-color:forestgreen;
+}
+ 
+ 
+#section4 img{
+    margin: 0% 45%;
+
+}
+#section4 h4{
+    text-align: center;
+    margin:10% 20%;
+     
+}
+#section4 p{
+    text-align: center;
+    margin: 10% 20%;
+   
+}
+#section4 p a{
+    text-decoration: none;
+    color:forestgreen;
+   
+}
+#section5i{
+    background-color: aliceblue;
+}
+#section5{
+    
+    height: 100%;
+    display: flex;
+
+}
+#section5 img{
+    height: 45%;
+    width: 40%;
+    margin-top: 24%;
+    margin-left: 5%;
+}
+#section5 div{
+    width: 40%;
+    margin-top: 30%;
+    margin-left: 5%;
+    background-color: blues;
+
+    
+}
+#section5 div p{
+    color: forestgreen;
+    font-size: large;
+}
+#section5 div h2{
+    font-size: 30px;
+    width: 60%;
+}
+#section5 div span{
+    width: 44%; 
+}
+#section5 div h5{
+    background-color: forestgreen;
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+}
+#section6{
+    display: flex;
+    margin: 0% 5%;
+}
+
+
+#section6 img{
+    height: 30px;
+    width: 30px;
+    margin:0% ;    
+}
+#section6 div{
+    width:15%
+}
+#section6 h2{
+    margin: 0 8%;
+    padding:0px;
+}
+#section6 p{
+    margin-left: 5%;
+    margin-top: 0%;
+   
+}
+.section7{
+    background-color: rgb(186, 204, 219);
+    height: 100%;
+    padding-top:100px;
+
+}
+
+#section7{
+
+    display: flex;
+    margin: 5% 5%;
+   
+}
+#section7 div{
+    width: 50%;
+    height: 50%;
+    padding-bottom: 13px;
+    padding-left: 5px;
+    margin:0% 1%;  
+}
+#section7 div h4{
+    color: forestgreen;
+}
+
+
+#section7 div span{
+    background-color: forestgreen;
+    padding: 10px;
+    font-size:x-small;
+    color:whitesmoke;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+   
+#section7i{
+    background-color: snow;
+    margin-left: 8%;
+    border-bottom: 4pt solid forestgreen;
+    box-shadow: 1pt 1pt 1pt 1pt hwb(0 71% 23%);
+    border-bottom-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
+#section7i img{
+    height:30px;
+    width: 30px;
+    margin: 8% 40%;
+    margin-bottom: 5%;
+}
+#section7i h1{
+    text-align: center;
+    margin-top: 0%;
+}
+#section7ii{
+    background-color: forestgreen;
+    margin-left: 8%;
+    border-bottom: 4pt solid forestgreen;
+    box-shadow: 1pt 1pt 1pt 1pt hwb(0 71% 23%);
+    border-bottom-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
+ 
+
+#section7ii img{
+    height:30px;
+    width: 30px;
+    margin:8% 40%;
+    margin-bottom: 5%;
+  
+}
+
+#section7ii h1{
+    text-align: center;
+    margin-top: 0%;
+}
+
+
+
+
+#section8{
+    display: flex;
+    margin: 5% 5%;
+}  
+
+#secion8 div{
+    width: 50%;
+    height: 50%;
+    padding-bottom: 13px;
+    padding-left: 5px;
+    margin:0% 1%; 
+}
+
+#section8i{
+    background-color: snow;
+    margin-left: 8%;
+    border-bottom: 4pt solid forestgreen;
+    box-shadow: 1pt 1pt 1pt 1pt hwb(0 71% 23%);
+    border-bottom-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+    margin:0% 1%;
+}
+#section8 img{
+    height:30px;
+    width: 30px;
+    margin: 8% 40%;
+    margin-bottom: 5%;
+}
+#section8 h1{
+    text-align: center;
+    margin-top: 0%;
+}
+
+#section8ii{
+    background-color: snow;
+    margin-left: 8%;
+    border-bottom: 4pt solid forestgreen;
+    box-shadow: 1pt 1pt 1pt 1pt hwb(0 71% 23%);
+    border-bottom-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+    margin:0% 1%;
+
+}
+
+#section8ii img{
+    height:30px;
+    width: 30px;
+    margin: 8% 40%;
+    margin-bottom: 5%;
+}
+
+#section8ii h1{
+    text-align: center;
+    margin-top: 0%;
+}
+
+#section8iii{
+    background-color:  snow;
+    margin-left: 8%;
+    border-bottom: 4pt solid forestgreen;
+    box-shadow: 1pt 1pt 1pt 1pt hwb(0 71% 23%);
+    border-bottom-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+    margin:0% 1%;
+}
+
+#section8iii img{
+    height:30px;
+    width: 30px;
+    margin: 8% 40%;
+    margin-bottom: 5%;
+}
+
+#section8iii h1{
+    text-align: center;
+    margin-top: 0%;
+}
+.section9a{
+    background-color:rgb(215, 237, 255); 
+    height: 100%; 
+    
+}
+
+#section9{
+    display: flex;
+    background-color: rgb(215, 237, 255); 
+    
+}
+#section9 div{
+    width:37%;
+    height: 60%;
+    margin: 5%;
+    background-color:rgb(215, 237, 255); 
+    
+}
+#section9 div h2{
+    font-size: 35px;
+}
+#section9 div span{
+    background-color: forestgreen;
+    padding: 10 10%;
+}
+
+#section9 div img{
+    margin-top: 10%;
+    margin-right: 5%;
+}
+.section9{
+    width: 35%;
+    height: 15%;
+    background-color: white;
+    margin: 25% 40%; 
+    position:absolute; 
+    text-align: center;
+    padding-top: 3%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 5pt solid forestgreen;
+}
+
+.last{
+    background-color: rgb(215, 237, 255);
+    padding-bottom: 15px;
+}
+.lastDom{
+    font-size:25px;
+}
+.lastPar{
+    letter-spacing: 10px;
+}
+.lastKin{
+    letter-spacing: 5px;
+}
+#last{
+    display: flex;
+    margin: 0%;
+    margin-left:5%;
+    
+   
+}
+
+
+#last img{
+    /* height: 30px;
+    width: 30px; */
+    margin:0% ;    
+}
+#last div{
+    width:30%;
+    
+    
+}
+#last h3{
+    margin: 0 0% 0% 1%;
+    padding:0px;
+}
+#last p{
+    margin-left: 1%;
+    margin-top: 0%;
+    font-size:xx-small;
+    letter-spacing: normal;
+   
+}
+
+
+#sectionb{
+
+    display: flex;
+    margin: 5% 5%;
+   
+}
+#sectionb div{
+    width: 30%;
+    height: 50%;
+    padding-bottom: 13px;
+    /* border-bottom: 2pt solid blue; */
+    /* background-color: aquamarine; */
+    padding-left: 5px;
+    /* background-color: aqua; */
+    margin:0% 1%;
+   
+    
+}
+#sectionb div h5{
+    color: forestgreen;
+}
+
+
+#sectionb div span{
+    background-color: forestgreen;
+    padding: 10px;
+    font-size:x-small;
+    color:whitesmoke;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+#sectionc{
+    background-image: url(Img/office2.jpg);
+    background-color: rgba(0, 0, 0, 0.432);
+    background-size: cover;
+    height: 100vh;  
+     
+}
+
+#sectionc div{
+    text-align: center;
+    color: white;
+    width: 40%;
+    height: 50%;
+    margin: 20% 30%;
+    position: absolute;
+    
+}
+
+#sectionc div span{
+    background-color: forestgreen;
+    padding: 15px;
+
+}
+
+#sectionc div span a{
+    text-decoration: none;
+    color:white;
+}
+
+#sectiond{
+    height: 30%;
+    background-color:rgb(206, 231, 255);
+}
+#sectiond div{
+    text-align: center;
+    color: black;
+    width: 30%;
+    height: 30%;
+    margin-left:32%;
+    position: absolute; 
+    padding-top: 10px;      
+}
+
+#sectionE{
+    background-color:rgb(206, 231, 255); 
+    display: flex;
+    height: 80%;
+}
+
+
+.sectionEa{
+    margin-left: 5%;
+    display: flex;
+    width: 100%;
+    margin-right: 3%;
+}
+
+.sectionEb{
+    background-color: white;
+    margin:1%; 
+    width: 30%;  
+}
+.sectionEc{
+    width:80%; 
+    margin-left: 8%;  
+}
+.sectionEd{
+    margin-left: 8%;
+}
+.sectionEf{
+    background-color: forestgreen;
+    padding: 0 10px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+
+
+
+
+footer{
+    background-color: rgba(0, 0, 0, 0.596);
+    height:40%;
+    padding-top: 10px;
+
+}
+.foot{
+    display:flex;
+    padding:0 20px;
+    
+}
+footer img{
+    margin: 0 3%;
+    
+}
+.foot1{
+    margin-left: 5%;
+    margin-top: -22px;
+    padding: 0 20px;
+
+}
+.foot2{
+    margin: 0 3%;
+}
+.foot3{
+    padding: 0 70px;
+    
+}
+
+li{
+    line-height: 30px;
+}
+input{
+    height:30px;
+}
+button{
+    height: 30px;
+    margin-top: 1%;
+    padding-left: 145px;
+    padding-right:145px;
+    background-color: forestgreen;
+    border: none;
+}
+.footimg{
+    margin: 5% 5%;
+}
+.end{
+    margin: 0 0 0 0%;
+    margin-top: -20px;
+}
+.enda{
+    margin: 0 0 0 60%;
+    /* margin-left:50%; */
+    margin-top: -40px;
+}
+.endb{
+    background-image: linear-gradient(forestgreen, rgba(95, 112, 0, 0.801), rgb(0, 163, 168));
+    height: 5%;
+    padding-top: 5px;
+}
+
+@media screen and (min: 51000) {
+    
+}
+
+    
+
+
